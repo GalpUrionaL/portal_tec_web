@@ -58,6 +58,10 @@ nav {
     max-width: 60%;
 }
 
+.titulo {
+    display: block;
+}
+
 h2 {
     margin: 25px 0 0 25px;
     font-size: 1.5rem;
@@ -121,4 +125,13 @@ figure {
     .navigation li a {
         color: #000;
     }
+}
+
+.introduccion {
+    margin: 2%;
+    display: block;
+}
+
+p {
+    text-align: justify;
 }
