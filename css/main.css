@@ -6,14 +6,17 @@
 
 /* * es un comodín que se refiere a todos los elementos. */
 
-
-/* { margin: 0; box-sizing: border-box; } */
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
 
 body {
     font-size: 16px;
     line-height: 32px;
-    font-family: Ubuntu, sans-serif;
+    font-family: 'Courgette', cursive;
     color: #0b0c0b;
+    background: #FFF4EB;
 }
 
 h1 {
@@ -39,7 +42,7 @@ header,
 footer,
 footer a {
     text-align: center;
-    background-color: #6ADDC9;
+    background-color: #f57c73;
     color: whitesmoke;
 }
 

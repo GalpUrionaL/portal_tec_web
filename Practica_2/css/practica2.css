@@ -1,5 +1,7 @@
 body {
     background: #D1E8F0;
+    font-family: 'Cormorant Garamond', serif;
+    font-weight: bold;
 }
 
 header {
@@ -60,7 +62,8 @@ h2 {
     margin: 25px 0 0 25px;
     font-size: 1.5rem;
     text-align: left;
-    font-family: 'Times New Roman', Times, serif;
+    font-family: 'Cormorant Garamond', serif;
+    font-weight: bold;
     color: #CA552B;
 }
 
