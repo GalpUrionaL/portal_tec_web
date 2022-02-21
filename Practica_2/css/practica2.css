@@ -1,5 +1,5 @@
 body {
-    background: #EDF6F9;
+    background: #D1E8F0;
 }
 
 header {
@@ -42,14 +42,28 @@ nav {
 }
 
 
-/***************GALLERY***************/
+/* main contenido principal */
+
+.portada {
+    margin: auto;
+    padding: auto;
+}
+
+.portada img {
+    /* hace que la imagen se posicione como flotante dependiendo del  lado*/
+    float: right;
+    opacity: 0.6;
+}
 
 h2 {
     margin: 25px 0 0 25px;
     font-size: 1.5rem;
+    text-align: left;
+    font-family: 'Times New Roman', Times, serif;
 }
 
-.container {
+
+/*.portada {
     margin: 25px;
     max-width: 100%;
     display: grid;
@@ -57,11 +71,12 @@ h2 {
     grid-gap: 20px;
 }
 
-.container img {
+.portada img {
     max-width: 100%;
     margin: 0 auto;
     padding: 0;
 }
+*/
 
 figcaption {
     padding: 4px;
