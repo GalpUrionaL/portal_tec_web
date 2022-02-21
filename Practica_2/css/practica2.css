@@ -218,13 +218,10 @@ aside {
 }
 
 footer {
+    width: 100%;
     text-align: center;
 }
 
 .piePagina {
     color: #FFFFFF;
-}
-
-.icono {
-    float: left;
 }
