@@ -53,6 +53,7 @@ nav {
     /* hace que la imagen se posicione como flotante dependiendo del  lado*/
     float: right;
     opacity: 0.6;
+    max-width: 60%;
 }
 
 h2 {
@@ -60,6 +61,7 @@ h2 {
     font-size: 1.5rem;
     text-align: left;
     font-family: 'Times New Roman', Times, serif;
+    color: #CA552B;
 }
 
 
