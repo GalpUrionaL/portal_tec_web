@@ -45,7 +45,7 @@ header {
 /* main contenido principal */
 
 main {
-    justify-content: space-between;
+    width: 100%;
 }
 
 .portada {
@@ -58,7 +58,7 @@ main {
     float: right;
     opacity: 0.6;
     max-width: 60%;
-    border-radius: 10px;
+    border-radius: 20px;
 }
 
 .titulo {
@@ -135,7 +135,7 @@ figure {
     display: block;
 }
 
-p {
+.introduccion p {
     text-align: left;
     color: #FFFFFF;
     letter-spacing: 1px;
@@ -144,7 +144,7 @@ p {
 .explicacion h2 {
     margin: 25px 0 0 25px;
     font-size: 1.5rem;
-    text-align: right;
+    text-align: center;
     font-family: 'Poppins', sans-serif;
     font-weight: bold;
     color: #83C5BE;
@@ -155,4 +155,76 @@ p {
     opacity: 0.6;
     max-width: 60%;
     border-radius: 10px;
+}
+
+.explicacion p {
+    text-align: center;
+    color: #FFFFFF;
+    letter-spacing: 1px;
+}
+
+aside {
+    background: #000;
+    width: 100%;
+    float: right;
+    line-height: 25px;
+}
+
+.contSe h3 {
+    /*margin: 25px 0 0 25px;*/
+    font-size: 1.5rem;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    color: #005f73;
+}
+
+.enlaces {
+    list-style: none;
+    padding: 15px;
+}
+
+.enlaces li a {
+    text-decoration: none;
+    padding: 15px;
+    color: #e9d8a6;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    padding: 10px;
+}
+
+.enlaces li a:hover {
+    background: #ee9b00;
+    color: #000;
+}
+
+@media screen and (max-width:700px) {
+    body {
+        font-size: 14px;
+        background: #000;
+    }
+    main {
+        width: 100%;
+    }
+    aside {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width:350px) {
+    aside {
+        display: none;
+    }
+}
+
+footer {
+    text-align: center;
+}
+
+.piePagina {
+    color: #FFFFFF;
+}
+
+.icono {
+    float: left;
 }
