@@ -1,17 +1,11 @@
 body {
-    background: #D1E8F0;
+    background: #000;
     font-family: 'Cormorant Garamond', serif;
     font-weight: bold;
 }
 
 header {
-    background: #83C5BE;
-}
-
-nav {
-    margin: 0 auto;
-    max-width: 760px;
-    background-color: #83C5BE;
+    background: #707F99;
 }
 
 .navigation {
@@ -31,14 +25,14 @@ nav {
 
 .navigation a {
     display: block;
-    color: #fff;
+    color: #83C5BE;
     padding: 0.75rem;
     text-align: center;
     text-decoration: none;
 }
 
 .navigation a:hover {
-    color: #000;
+    color: #FFFFFF;
     background-color: #006D77;
     font-weight: 700;
 }
@@ -65,10 +59,10 @@ nav {
 h2 {
     margin: 25px 0 0 25px;
     font-size: 1.5rem;
-    text-align: left;
+    text-align: center;
     font-family: 'Cormorant Garamond', serif;
     font-weight: bold;
-    color: #CA552B;
+    color: #83C5BE;
 }
 
 
@@ -133,5 +127,7 @@ figure {
 }
 
 p {
-    text-align: justify;
+    text-align: center;
+    color: #FFFFFF;
+    letter-spacing: 1px;
 }
