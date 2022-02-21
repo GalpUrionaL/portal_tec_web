@@ -37,6 +37,10 @@ header {
     font-weight: 700;
 }
 
+.logo {
+    position: absolute;
+}
+
 
 /* main contenido principal */
 
@@ -54,6 +58,7 @@ main {
     float: right;
     opacity: 0.6;
     max-width: 60%;
+    border-radius: 10px;
 }
 
 .titulo {
@@ -94,7 +99,7 @@ figure {
 }
 
 .item:hover {
-    /* box-shadow: 0 0 50px #333;*/
+    box-shadow: 0 0 50px #333;
 }
 
 
@@ -134,4 +139,20 @@ p {
     text-align: left;
     color: #FFFFFF;
     letter-spacing: 1px;
+}
+
+.explicacion h2 {
+    margin: 25px 0 0 25px;
+    font-size: 1.5rem;
+    text-align: right;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    color: #83C5BE;
+}
+
+.explicacion img {
+    float: left;
+    opacity: 0.6;
+    max-width: 60%;
+    border-radius: 10px;
 }
