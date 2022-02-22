@@ -16,56 +16,68 @@
 
 <body>
 
-
     <header>
         <nav>
-            <ul class="nav">
-                <li><a href="index.html"><i class="fa-solid fa-house-user"></i></a></li>
-                <li><a href="introduccion.html">Introduccion</a></li>
+            <ul class="navegation responsive">
+                <li><a href="#" onclick="MenuDesplegable()">&#9776; Menú </a></li>
+                <li><a href="index.html"><i class="fa-solid fa-house-user"></i></i></a></li>
+                <li><a href="introduccion.html">Introducción</a></li>
                 <li><a href="tutoriales.html">Tutoriales</a></li>
-                <li><a href="iniciarSesion.html">Iniciar secion</i></a></li>
-                <li><a href="registrarse.html">Registrarse</i></a></li>
-                <li><a href="contacto.html">Contacto</i></a></li>
+                <li><a href="iniciarSesion.html">Iniciar Sesion</a></li>
+                <li><a href="registrarse.html">Registrarse</a></li>
+                <li><a href="contacto.html">Contácto</a></li>
             </ul>
         </nav>
-        <h1>INTRODUCCION</h1>
     </header>
-
-    <div class="row">
-        <div class="col-lg-6">
-            <section>
-                <h2 class="titulo-contacto">Envie un mensaje</h2>
+    <script src="js/barra.js"></script>
+    <main>
+        <h1>INTRODUCCION</h1>
+        <div class="row">
+            <div class="col-lg-6">
+                <section>
+                    <h2 class="titulo-contacto">Envie un mensaje</h2>
+                    <div>
+                        <form action="#" style="text-align:left;">
+                            <label><b style="color: black;">Nombre:</b></label><br>
+                            <input type="text" name="" placeholder="Ingrese su nombre"><br>
+                            <label><b style="color: black;">Email:</b></label><br>
+                            <input type="Email" name="" placeholder="Ingrese su correo"><br>
+                            <label><b style="color: black;">Asunto:</b></label><br>
+                            <input type="text" name="" placeholder="Ingrese su asunto"><br>
+                            <label><b style="color: black;">Mensaje:</b></label><br>
+                            <textarea placeholder>Ingrese su mensaje</textarea><br>
+                            <center>
+                                <input type="submit" name="enviar" class="enviar">
+                            </center>
+                        </form>
+                    </div>
+                </section>
                 <div>
-                    <form action="#" style="text-align:left;">
-                        <label><b style="color: black;">Nombre:</b></label><br>
-                        <input type="text" name="" placeholder="Ingrese su nombre"><br>
-                        <label><b style="color: black;">Email:</b></label><br>
-                        <input type="Email" name="" placeholder="Ingrese su correo"><br>
-                        <label><b style="color: black;">Asunto:</b></label><br>
-                        <input type="text" name="" placeholder="Ingrese su asunto"><br>
-                        <label><b style="color: black;">Mensaje:</b></label><br>
-                        <textarea placeholder>Ingrese su mensaje</textarea><br>
-                        <center>
-                            <input type="submit" name="enviar" class="enviar">
-                        </center>
-                    </form>
-                </div>
-            </section>
-            <div>
-                <p align="center">
-                    <i style="color: black;">
-                    Direccion: Villazon  # 444654 <br>  
-                    Telefono Celular:<a href="tel:+59172492337"><strong>72492337</strong></a> 
-                    Email:<a href="Onix@hotmail.com"><strong>@gmail.com</strong></a>
-                </i>
+                    <p align="center">
+                        <i style="color: black;">
+                        Direccion: Villazon  # 444654 <br>  
+                        Telefono Celular:<a href="tel:+59172492337"><strong>72492337</strong></a> 
+                        Email:<a href="Onix@hotmail.com"><strong>@gmail.com</strong></a>
+                    </i>
 
-                </p>
+                    </p>
+                </div>
             </div>
         </div>
+    </main>
 
+    <aside>
+        <h3>Enlaces Recomendados</h3>
+        <hr>
+        <ul>
+            <li><a href="https://es.wikipedia.org/wiki/Servidor_web">Servidor Web</a></li>
+            <li><a href="https://es.wikipedia.org/wiki/Servidor_de_correo">Servidor de Correo</a></li>
+            <li><a href="https://es.wikipedia.org/wiki/Telnet">Servidor Telnet</a></li>
+            <li><a href="https://es.wikipedia.org/wiki/Protocolo_de_transferencia_de_archivos">Servidor FTP</a></li>
+            <li><a href="https://es.wikipedia.org/wiki/Sistema_de_nombres_de_dominio">Servidor DNS</a></li>
+        </ul>
+    </aside>
 
-    </div>
-    </div>
     <footer>
 
         <div class="footer-container">
