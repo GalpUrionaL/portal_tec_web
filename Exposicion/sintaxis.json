@@ -1,0 +1,9 @@
+{
+    "name": "Galia",
+    "age": "26",
+    "city": "true",
+    "genero": {
+        "femenino": "f"
+    }
+
+}
