@@ -1,0 +1,22 @@
+{
+    "person": [
+        { "firstname": "Juan José", "lastname": "Roca León" },
+        { "firstname": "Galia Paola", "lastname": "Uriona Larraín" }
+
+    ]
+
+}
+
+
+
+{
+    "employees": [
+        { "firstName": "John", "lastName": "Doe" },
+        { "firstName": "Anna", "lastName": "Smith" },
+        { "firstName": "Peter", "lastName": "Jones" }
+    ]
+}
+
+"genero": {
+    "femenino": "f"
+}
