@@ -1,11 +1,11 @@
 body {
-    background: #4A4E69;
+    background: #22223B;
     font-family: 'Poppins', sans-serif;
     font-weight: bold;
 }
 
 header {
-    background: #9A8C98;
+    background: #4A4E69;
 }
 
 .navigation {
@@ -25,7 +25,7 @@ header {
 
 .navigation a {
     display: block;
-    color: #fff;
+    color: #83C5BE;
     padding: 0.75rem;
     text-align: center;
     text-decoration: none;
@@ -37,6 +37,194 @@ header {
     font-weight: 700;
 }
 
+
+/* main contenido principal */
+
+main {
+    width: 100%;
+}
+
+.portada {
+    margin: auto;
+    padding: auto;
+}
+
+.portada img {
+    /* hace que la imagen se posicione como flotante dependiendo del  lado*/
+    float: right;
+    opacity: 0.6;
+    max-width: 48%;
+    border-radius: 30px;
+    margin: auto;
+}
+
+.titulo {
+    display: block;
+}
+
+
+/*.portada {
+    margin: 25px;
+    max-width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 20px;
+}
+
+.portada img {
+    max-width: 100%;
+    margin: 0 auto;
+    padding: 0;
+}
+*/
+
+figcaption {
+    padding: 4px;
+}
+
+figure {
+    margin: 0;
+}
+
+.item:hover {
+    box-shadow: 0 0 50px #333;
+}
+
+
+/* the onclick JS toggles the .repsonsive class from display none (.navigation li) to display block because the repsonsive class is added to the end of the class list like this in HTML Line #6.
+  <ul class="navigation responsive">
+  */
+
+.responsive li {
+    display: block;
+}
+
+
+/* Media Query for medium + screens */
+
+@media only screen and (min-width: 32.5em) {
+    .navigation {
+        display: flex;
+    }
+    .navigation li:first-child {
+        display: none;
+    }
+    .navigation li {
+        display: block;
+        flex: 1 1 100%;
+    }
+    .navigation li a {
+        color: #000;
+    }
+}
+
+.articulo {
+    margin: 1%;
+    display: block;
+}
+
+.articulo p {
+    text-align: left;
+    color: #FFFFFF;
+    letter-spacing: 1px;
+}
+
+.titulo h2 {
+    margin: 25px 0 0 25px;
+    font-size: 1.5rem;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    color: #83C5BE;
+}
+
+.articulo img {
+    float: left;
+    opacity: 0.6;
+    max-width: 50%;
+    border-radius: 30px;
+    margin: 1%;
+    padding: 1%;
+}
+
+.articulo p {
+    text-align: center;
+    color: #FFFFFF;
+    letter-spacing: 1px;
+}
+
+aside {
+    background: #000;
+    width: 100%;
+    float: left;
+    line-height: 20px;
+    border-radius: 20px;
+    margin: 1%;
+    padding: 1%;
+}
+
+.contSe h3 {
+    /*margin: 25px 0 0 25px;*/
+    font-size: 1.5rem;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    color: #005f73;
+}
+
+.enlaces {
+    list-style: none;
+    padding: 15px;
+}
+
+.enlaces li a {
+    text-decoration: none;
+    padding: 15px;
+    color: #e9d8a6;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    padding: 10px;
+}
+
+.enlaces li a:hover {
+    background: #ee9b00;
+    color: #000;
+}
+
+@media screen and (max-width:700px) {
+    body {
+        font-size: 14px;
+        background: #000;
+    }
+    main {
+        width: 100%;
+    }
+    aside {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width:350px) {
+    aside {
+        display: none;
+    }
+}
+
+footer {
+    background: #000;
+    width: 100%;
+    justify-content: center;
+    line-height: 25px;
+    border-radius: 20px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
 .logo {
     position: absolute;
+}
+
+.piedePagina {
+    color: #FFFFFF;
+    margin: 1%;
 }
