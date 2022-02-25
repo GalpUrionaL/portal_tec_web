@@ -243,3 +243,16 @@ h1 {
 .titulo2 {
     text-align: left;
 }
+
+h3 {
+    color: #9ef01a;
+}
+
+.parrafoP {
+    color: #fff1e6;
+    text-align: justify;
+}
+
+.tituloVideo1 {
+    float: left;
+}
