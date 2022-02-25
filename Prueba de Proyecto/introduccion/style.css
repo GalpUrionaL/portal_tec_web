@@ -1,0 +1,130 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family:'Courier New', Courier, monospace;
+}
+h1{  font-family: 'Trade Winds', cursive;
+    background-color: #76e6f5}
+p{font-family: 'Share Tech Mono', monospace;}
+.container{
+    max-width: 600px;
+    margin: auto;
+    font-size: 18px;
+    padding: 20px;
+}
+.container p{
+    margin-bottom: 10px;
+}
+
+header{
+    height: 32%;
+    background: #5fc5d3;
+    display: flex;
+    padding: 0 20px;
+}
+
+
+    .menu-toggle{
+
+        
+        margin-left: auto;
+        color: rgb(65, 106, 129);
+        line-height: 60px;
+        font-size: 25px;
+        cursor: pointer;
+      
+    }
+    .logo a{
+        color: #fff;
+        text-decoration: none;
+        font-size: 20px;
+        line-height: 60px;
+        text-transform: uppercase;
+        font-family: 'Trade Winds', cursive;
+       }
+    #menu{
+        margin-left: auto;
+    }
+
+#menu ul li{
+    display: inline-block;
+}
+#menu ul li a{
+display: inline-block;
+position: relative;
+color: #fff;
+text-decoration: none;
+line-height: 60px;
+padding: S 8px;
+text-transform: uppercase;
+transition: .2s;
+
+}
+
+#menu ul li a:hover{
+   background: #31909c; 
+}
+
+/*JAVASCRIP */
+.MenuDesplegable{
+    height: 305px !important;
+}
+@media screen and (max-width:700px){
+     .menu-toggle{
+           display: block;}
+
+           #menu{
+            background: #0e0ec2;
+            position: absolute;
+            top: 60px;
+            left: 0;
+            width: 100%;
+            height: 0;
+            border: 1px solid #eee;
+            overflow: hidden;
+            transition: .3s ease-out;                          
+        }
+
+        #menu ul li{
+            display: block;
+            text-align: center;}
+
+          #menu ul li a{
+            color: #fff;
+            font-size: 20px;
+            border-bottom: 1px solid #0a0ada;
+            width: 100%;
+        }
+        #menu ul li a:hover{
+            background: #0404dc;}
+
+          .container{
+            padding: 10px; }
+
+    }
+    
+    main h2{
+        font-family: 'Share Tech Mono', monospace;
+       background-color: #76e6f5;
+    }
+    main p{
+        background-color: #35b5ae;
+    }
+  .video1{
+  background-color: rgba(42, 115, 179, 0.618);
+  }
+  .video2{
+    background-color: rgba(42, 115, 179, 0.618);
+  }
+  main ul li{
+      background-color:rgba(42, 115, 179, 0.618);
+      text-align: center;
+           font-family: 'Share Tech Mono', monospace;
+      
+  }
+  footer{
+      
+  }
