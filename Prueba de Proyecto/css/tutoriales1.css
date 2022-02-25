@@ -211,7 +211,7 @@ aside {
 }
 
 footer {
-    background: #000;
+    background: #5D6283;
     width: 100%;
     justify-content: center;
     line-height: 25px;
@@ -227,6 +227,7 @@ footer {
 .piedePagina {
     color: #FFFFFF;
     margin: 1%;
+    justify-content: space-around;
 }
 
 
@@ -269,8 +270,36 @@ h3 {
     margin: 2%;
 }
 
+.video2 {
+    float: left;
+    margin: 2%;
+    display: flex;
+}
+
 .parrafo2 {
     float: right;
     color: #fff1e6;
+    display: block;
+}
+
+.conclusionT {
+    float: left;
+}
+
+.parrafoCon {
+    float: left;
+    text-align: left;
+    color: #fff1e6;
+}
+
+.titulosec {
     text-align: center;
+}
+
+.logocopy {
+    float: left;
+}
+
+.siguenos {
+    float: right;
 }
