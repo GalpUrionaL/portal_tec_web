@@ -1,0 +1,119 @@
+body {
+    background: #22223B;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+}
+
+header {
+    background: #4A4E69;
+}
+
+.navigation {
+    list-style: none;
+    text-align: center;
+    padding: 0;
+}
+
+.navigation li:first-child {
+    /*Pseudoclase*/
+    display: block;
+}
+
+.navigation li {
+    display: none;
+}
+
+.navigation a {
+    display: block;
+    color: #83C5BE;
+    padding: 0.75rem;
+    text-align: center;
+    text-decoration: none;
+}
+
+.navigation a:hover {
+    color: #FFFFFF;
+    background-color: #006D77;
+    font-weight: 700;
+}
+
+
+/* main contenido principal */
+
+main {
+    width: 100%;
+}
+
+.portada {
+    margin: 0;
+    padding: 0;
+}
+
+.portada img {
+    /* hace que la imagen se posicione como flotante dependiendo del  lado*/
+    float: right;
+    opacity: 0.6;
+    max-width: 48%;
+    border-radius: 30px;
+    margin: auto;
+}
+
+.titulo {
+    display: block;
+}
+
+
+/*.portada {
+    margin: 25px;
+    max-width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 20px;
+}
+
+.portada img {
+    max-width: 100%;
+    margin: 0 auto;
+    padding: 0;
+}
+*/
+
+figcaption {
+    padding: 4px;
+}
+
+figure {
+    margin: 0;
+}
+
+.item:hover {
+    box-shadow: 0 0 50px #333;
+}
+
+
+/* the onclick JS toggles the .repsonsive class from display none (.navigation li) to display block because the repsonsive class is added to the end of the class list like this in HTML Line #6.
+  <ul class="navigation responsive">
+  */
+
+.responsive li {
+    display: block;
+}
+
+
+/* Media Query for medium + screens */
+
+@media only screen and (min-width: 32.5em) {
+    .navigation {
+        display: flex;
+    }
+    .navigation li:first-child {
+        display: none;
+    }
+    .navigation li {
+        display: block;
+        flex: 1 1 100%;
+    }
+    .navigation li a {
+        color: #000;
+    }
+}
