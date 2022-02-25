@@ -256,3 +256,21 @@ h3 {
 .tituloVideo1 {
     float: left;
 }
+
+.video1 {
+    float: right;
+    margin: 2%;
+    padding: 1%;
+}
+
+.tituloVideo2 {
+    display: flex;
+    float: right;
+    margin: 2%;
+}
+
+.parrafo2 {
+    float: right;
+    color: #fff1e6;
+    text-align: center;
+}
