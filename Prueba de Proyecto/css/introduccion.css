@@ -147,7 +147,8 @@ figure {
     color: #9ef01a;
 }
 
-.titulo2 p {
+.titulo2 p,
+ul {
     margin: 1%;
     padding: 1%;
     text-align: justify;
@@ -157,15 +158,39 @@ figure {
 }
 
 .conte2 {
+    width: 100%;
     margin: 1%;
-    padding: 1%;
     display: flex;
+    justify-content: space-between;
 }
 
 .conte2 img {
-    height: 50%;
+    width: 470px;
+    height: 450px;
     float: right;
     text-align: right;
+    border-radius: 20px;
+}
+
+.conte2 p {
+    margin: 2%;
+    text-align: justify;
+    color: #FFFFFF;
+    letter-spacing: 1px;
+    font-size: 1em;
+}
+
+.conte3 {
+    width: 100%;
+    margin: 1%;
+    padding: 1%;
+}
+
+.conte3 h2 {
+    margin: 1%;
+    padding: 1%;
+    text-align: left;
+    color: #9ef01a;
 }
 
 .pie-pagina {
