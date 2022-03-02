@@ -210,22 +210,39 @@ aside {
     }
 }
 
-footer {
-    background: #000;
+.pie-pagina {
     width: 100%;
-    justify-content: center;
-    line-height: 25px;
-    border-radius: 20px;
+    background-color: #e66108;
+}
+
+.pie-pagina .grupo-1 {
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 50px;
+    padding: 45px 0px;
+}
+
+.pie-pagina .grupo-1 .box figure {
+    width: 100%;
+    height: 100%;
     display: flex;
-    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
 }
 
-.logo {
-    position: absolute;
+.pie-pagina .grupo-1 .box figure img {
+    width: 250px;
+    border-radius: 100%;
 }
 
-.piedePagina {
-    color: #FFFFFF;
-    margin: 1%;
-    justify-content: space-around;
+@media screen and (max-width:800px) {
+    .pie-pagina .grupo-1 {
+        width: 90%;
+        grid-template-columns: repeat(1, 1fr);
+        grid-gap: 30px;
+        padding: 35px 0px;
+    }
 }
