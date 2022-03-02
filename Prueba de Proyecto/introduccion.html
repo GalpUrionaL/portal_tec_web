@@ -46,41 +46,43 @@
             <div class="titulo2">
                 <h2>¿QUÉ ES UN SERVIDOR DHCP?</h2>
 
-                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Tempora, itaque ipsum. Incidunt iusto quia temporibus, quasi voluptas quaerat ab eveniet dignissimos ut beatae cumque ipsa corrupti ad omnis nostrum, aperiam itaque blanditiis magnam
-                    veniam consequatur alias esse quisquam officiis? Alias accusantium maiores optio debitis dolorum eius facilis aut commodi dolorem repellendus, beatae, ex in. Beatae quasi ex necessitatibus dolore ullam deleniti dignissimos, corrupti
-                    nihil rerum ipsum at soluta, omnis, quaerat eligendi fuga. Quos maiores perspiciatis magnam quisquam minus vitae rerum hic deleniti iste quod corrupti eos, unde commodi ad omnis id? Fugit nemo asperiores expedita accusamus error ad
-                    necessitatibus molestiae.
+                <p>La asignación automática de direcciones mediante el protocolo de configuración dinámica de host tiene lugar en cuatro pasos consecutivos:
                 </p>
+                <ul>
+                    <li>
+                        El cliente DHCP envía un paquete DHCPDISCOVER a la dirección255.255.255.255 desde la dirección 0.0.0.0. Con esta denominada difusión amplia o broadcast, el cliente establece contacto con todos los integrantes de la red con el propósito de localizar servidores
+                        DHCP disponibles e informar sobre su petición. Si solo hay un servidor, entonces la configuración es extremadamente sencilla.
+                    </li>
+                    <li>
+                        Todos los servidores DHCP que escuchan peticiones en el puerto 67 responden a la solicitud del cliente con un paquete DHCPOFFER, que contiene una dirección IP libre, la dirección MAC del cliente y la máscara de subred, así como la dirección IP y el ID
+                        del servidor.
+                    </li>
+                    <li>
+                        El cliente DHCP escoge un paquete y contacta con el servidor correspondiente con DHCPREQUEST. El resto de servidores también reciben este mensaje de forma que quedan informados de la elección. Con esta notificación, el cliente también solicita al servidor
+                        una confirmación de los datos que le ha ofrecido. Esta respuesta también sirve para confirmar parámetros asignados con anterioridad.
+                    </li>
+                </ul>
+
             </div>
 
             <div class="conte2">
                 <img src="imagenes/img2.jpg" alt="Ejemplo de DHCP">
                 <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia provident nesciunt quos, tenetur rem quod quasi possimus molestiae eligendi consequuntur temporibus nemo totam magnam culpa cum omnis consequatur voluptatibus corporis praesentium sapiente
-                    perspiciatis consectetur animi? Aspernatur, placeat adipisci sint alias delectus a, eveniet qui pariatur aut ratione amet accusantium atque commodi asperiores? Nesciunt culpa sint voluptas recusandae obcaecati officia accusantium,
-                    quia maiores eveniet hic, minus saepe adipisci aliquam qui necessitatibus molestiae vitae molestias. Quo minus exercitationem, velit veritatis aspernatur quibusdam illo perspiciatis iure consequatur, quidem vel obcaecati itaque quas,
-                    voluptatum incidunt fuga.
+                    Para finalizar, el servidor confirma los parámetros TCP/IP y los envía de nuevo al cliente, esta vez con el paquete DHCPACK (DHCP acknowledged o «reconocido»). Este paquete contiene otros datos (sobre servidores DNS, SMTP o POP3). El cliente DHCP guarda
+                    localmente los datos que ha recibido y se conecta con la red. Si el servidor no contara con ninguna dirección más que ofrecer o durante el proceso la IP fuera asignada a otro cliente, entonces respondería con DHCPNAK (DHCP not acknowledged
+                    o «no reconocido»).<br><br> La dirección asignada se guarda en la base de datos del servidor junto con la dirección MAC del cliente, con lo cual la configuración se hace permanente, es decir, el dispositivo se conecta
+                    a la red siempre con esa dirección que le ha sido asignada automáticamente y que ya no está disponible para ningún otro cliente, lo que significa que los clientes DHCP nuevos no pueden recibir ninguna dirección si ya están todas asignadas,
+                    incluso aunque algunas IP ya no se usen activamente. Esto ha llevado a la expansión de las direcciones dinámicas y, en casos especiales, a la asignación manual vía servidor DHCP, que explicamos en los párrafos que siguen.
                 </p>
+
             </div>
 
-            <div class="tituloCa">
-                <h2>CARACTERISTICAS</h2>
-            </div>
-
-            <div class="caracte">
-                <ul>
-                    <li>CARACTERISTICA1</li>
-                    <li>CARACTERISTICA1</li>
-                    <li>CARACTERISTICA1</li>
-                </ul>
-            </div>
-
-            <div class="conte3">
+            <div class="cont3">
                 <h2>¿CÓMO FUNCIONA UN SERVIDOR DHCP?</h2>
-
                 <p>
-                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quasi hic adipisci itaque rem, minus veritatis inventore quis eos eaque, autem perspiciatis optio tempora nisi asperiores. Praesentium commodi nostrum eaque error.
-
+                    La dirección IP asignada a un cliente tiene que poderse asociar con su nombre de dominio. Es aquí donde entra en juego un servidor DNS, que se ocupa de la resolución de nombres. Cuando una dirección registrada o el nombre de host se modifican, es necesario
+                    actualizar el servidor de nombres de dominio. Para un administrador, así como para el usuario que se conecta a Internet desde su casa, la actualización manual del DNS en el caso de las direcciones IP variables asignadas dinámicamente
+                    por un servidor DHCP conllevaría mucho trabajo. El que no tengan que hacerlo es posible gracias al servidor DHCP,que se encarga de hacer llegar la nueva información al DNS tan pronto como se asigna una nueva dirección IP.
                 </p>
             </div>
 

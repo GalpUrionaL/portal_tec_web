@@ -1,4 +1,4 @@
-let prueba = new XMLHttpRequest();
+let prueba = new XMLHttpRequest(); //
 prueba.open('GET', 'servidor.php');
 prueba.onload = function() {
     if (prueba.status === 200) {
