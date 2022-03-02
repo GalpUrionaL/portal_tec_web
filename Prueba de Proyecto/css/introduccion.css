@@ -233,6 +233,42 @@ ul {
     text-align: center;
 }
 
+aside {
+    background: #000;
+    width: 100%;
+    float: left;
+    line-height: 20px;
+    border-radius: 20px;
+}
+
+.contSe h3 {
+    /*margin: 25px 0 0 25px;*/
+    font-size: 1.5rem;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    color: #005f73;
+}
+
+.enlaces {
+    list-style: none;
+    padding: 15px;
+}
+
+.enlaces li a {
+    text-decoration: none;
+    padding: 15px;
+    color: #e9d8a6;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    padding: 10px;
+}
+
+.enlaces li a:hover {
+    background: #ee9b00;
+    color: #000;
+}
+
 .pie-pagina {
     width: 100%;
     background-color: #e66108;
