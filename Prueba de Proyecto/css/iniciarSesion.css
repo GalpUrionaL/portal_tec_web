@@ -103,7 +103,7 @@ figure {
 
 .imgSesion {
     float: left;
-    max-width: 50%;
+    width: 50%;
     border-radius: 30px;
     margin: 1%;
     padding: 1%;
@@ -112,7 +112,6 @@ figure {
 .formulario {
     margin: 2%;
     float: center;
-    position: relative;
 }
 
 .usuario {
@@ -177,6 +176,9 @@ hr {
 }
 
 @media screen and (max-width:350px) {
+    .imgSesion {
+        display: none;
+    }
     aside {
         display: none;
     }
