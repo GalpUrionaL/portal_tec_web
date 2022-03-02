@@ -96,6 +96,9 @@ figure {
     .navigation li a {
         color: #000;
     }
+    main {
+        width: 100%;
+    }
 }
 
 .imgSesion {
@@ -109,14 +112,15 @@ figure {
 .formulario {
     margin: 2%;
     float: center;
+    position: relative;
 }
 
 .usuario {
-    margin: 10%;
+    margin: 5%;
 }
 
 .contrasenia {
-    margin: 10%;
+    margin: 5%;
 }
 
 aside {
@@ -125,6 +129,10 @@ aside {
     float: left;
     line-height: 20px;
     border-radius: 20px;
+}
+
+hr {
+    color: #cfe1b9;
 }
 
 .contSe h3 {
@@ -170,6 +178,12 @@ aside {
 
 @media screen and (max-width:350px) {
     aside {
+        display: none;
+    }
+    .box img {
+        display: none;
+    }
+    .boxS {
         display: none;
     }
 }
@@ -238,11 +252,9 @@ p {
     border-radius: 100%;
 }*/
 
-@media screen and (max-width:800px) {
+@media screen and (max-width:300px) {
+    aside {}
     .pie-pagina .grupo-1 {
-        width: 90%;
-        grid-template-columns: repeat(1, 1fr);
-        grid-gap: 30px;
-        padding: 35px 0px;
+        width: 100%;
     }
 }
