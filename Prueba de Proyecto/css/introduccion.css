@@ -187,10 +187,50 @@ ul {
 }
 
 .conte3 h2 {
-    margin: 1%;
-    padding: 1%;
     text-align: left;
     color: #9ef01a;
+}
+
+.conte3 p {
+    margin: 2%;
+    text-align: justify;
+    color: #FFFFFF;
+    letter-spacing: 1px;
+    font-size: 1em;
+}
+
+.conclusiones {
+    width: 100%;
+    margin: 1%;
+    padding: 1%;
+    display: flex;
+    flex-direction: column;
+}
+
+.conclusiones h2 {
+    text-align: center;
+    color: #9ef01a;
+}
+
+.conclusiones p {
+    margin: 2%;
+    text-align: justify;
+    color: #FFFFFF;
+    letter-spacing: 1px;
+    font-size: 1em;
+}
+
+.conclusiones img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 600px;
+    border-radius: 20px;
+}
+
+.conclusiones h3 {
+    color: #00a896;
+    text-align: center;
 }
 
 .pie-pagina {
