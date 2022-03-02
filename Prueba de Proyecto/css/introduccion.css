@@ -11,7 +11,7 @@ header {
 .navigation {
     list-style: none;
     text-align: center;
-    *padding: 0;
+    padding: 0;
 }
 
 .navigation li:first-child {
