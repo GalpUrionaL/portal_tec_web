@@ -11,7 +11,7 @@ header {
 .navigation {
     list-style: none;
     text-align: center;
-    padding: 0;
+    *padding: 0;
 }
 
 .navigation li:first-child {
@@ -43,40 +43,6 @@ header {
 main {
     width: 100%;
 }
-
-.portada {
-    margin: 0;
-    padding: 0;
-}
-
-.portada img {
-    /* hace que la imagen se posicione como flotante dependiendo del  lado*/
-    float: right;
-    opacity: 0.6;
-    max-width: 48%;
-    border-radius: 30px;
-    margin: auto;
-}
-
-.titulo {
-    display: block;
-}
-
-
-/*.portada {
-    margin: 25px;
-    max-width: 100%;
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-gap: 20px;
-}
-
-.portada img {
-    max-width: 100%;
-    margin: 0 auto;
-    padding: 0;
-}
-*/
 
 figcaption {
     padding: 4px;
@@ -118,39 +84,137 @@ figure {
     }
 }
 
+@media screen and (max-width:700px) {
+    body {
+        font-size: 14px;
+        background: #000;
+    }
+    main {
+        width: 100%;
+    }
+    aside {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width:350px) {
+    .imgSesion {
+        display: none;
+    }
+    aside {
+        display: none;
+    }
+    .boxS {
+        display: none;
+    }
+}
+
+.tituloP {
+    color: #83C5BE;
+    text-align: center;
+    margin: 2%;
+    padding: 1%;
+}
+
+.contV {
+    margin: 1%;
+    padding: 1%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.contV p {
+    width: 50%;
+    margin: 1%;
+    padding: 1%;
+    text-align: justify;
+    color: #FFFFFF;
+    letter-spacing: 1px;
+    font-size: 1em;
+}
+
+.titulo2 {
+    width: 100%;
+    margin: 1%;
+    padding: 1%;
+}
+
+.titulo2 h2 {
+    margin: 1%;
+    padding: 1%;
+    text-align: left;
+    color: #9ef01a;
+}
+
+.titulo2 p {
+    margin: 1%;
+    padding: 1%;
+    text-align: justify;
+    color: #FFFFFF;
+    letter-spacing: 1px;
+    font-size: 1em;
+}
+
+.conte2 {
+    margin: 1%;
+    padding: 1%;
+    display: flex;
+}
+
+.conte2 img {
+    height: 50%;
+    float: right;
+    text-align: right;
+}
+
 .pie-pagina {
     width: 100%;
     background-color: #e66108;
-}
-
-.pie-pagina .grupo-1 {
-    width: 100%;
-    max-width: 1200px;
-    margin: auto;
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-gap: 50px;
-    padding: 45px 0px;
-}
-
-.pie-pagina .grupo-1 .box figure {
-    width: 100%;
-    height: 100%;
     display: flex;
-    justify-content: center;
-    align-items: center;
+    flex-direction: row;
+    border-radius: 20px;
 }
 
-.pie-pagina .grupo-1 .box figure img {
-    width: 250px;
-    border-radius: 100%;
+.box img {
+    width: 25%;
+    height: 25%;
+    margin: 1%;
+    float: left;
+    border-radius: 20%;
 }
 
-@media screen and (max-width:800px) {
+.boxS {
+    width: 30%;
+    margin: 2%;
+    float: right;
+}
+
+.boxS h2,
+p {
+    text-align: right;
+    font-size: 20px;
+    float: right;
+}
+
+.boxSiguenos {
+    width: 100%;
+    margin: 2%;
+    float: inline-start;
+    text-align: center;
+}
+
+.boxSiguenos h2 {
+    text-align: center;
+    font-size: 20px;
+}
+
+.red-social {
+    text-align: center;
+}
+
+@media screen and (max-width:300px) {
     .pie-pagina .grupo-1 {
-        width: 90%;
-        grid-template-columns: repeat(1, 1fr);
-        grid-gap: 30px;
-        padding: 35px 0px;
+        width: 100%;
     }
 }
