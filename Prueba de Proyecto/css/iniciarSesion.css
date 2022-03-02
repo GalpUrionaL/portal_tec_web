@@ -102,6 +102,7 @@ figure {
 }
 
 .imgSesion {
+    position: static;
     float: left;
     width: 50%;
     border-radius: 30px;
