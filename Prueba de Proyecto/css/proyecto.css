@@ -159,8 +159,6 @@ aside {
     float: left;
     line-height: 20px;
     border-radius: 20px;
-    margin: 1%;
-    padding: 1%;
 }
 
 .contSe h3 {
@@ -212,12 +210,42 @@ aside {
 
 .pie-pagina {
     width: 100%;
+    height: 30%;
     background-color: #e66108;
+    display: flex;
+    border-radius: 20px;
 }
 
-.pie-pagina .grupo-1 {
+.box img {
+    width: 30%;
+    margin: 1%;
+    float: left;
+    border-radius: 20%;
+}
+
+.boxS {
+    width: 40%;
+    float: right;
+}
+
+.boxS h2,
+p {
+    text-align: left;
+}
+
+.boxSiguenos {
+    width: 20%;
+    margin: 1.5%;
+    float: inline-end right;
+}
+
+.boxSiguenos h2 {
+    text-align: right;
+}
+
+
+/*.pie-pagina .grupo-1 {
     width: 100%;
-    max-width: 1200px;
     margin: auto;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -227,7 +255,7 @@ aside {
 
 .pie-pagina .grupo-1 .box figure {
     width: 100%;
-    height: 100%;
+    height: 40%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -245,4 +273,4 @@ aside {
         grid-gap: 30px;
         padding: 35px 0px;
     }
-}
+}*/

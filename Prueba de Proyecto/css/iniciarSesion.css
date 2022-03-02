@@ -49,34 +49,14 @@ main {
     padding: 0;
 }
 
-.portada img {
-    /* hace que la imagen se posicione como flotante dependiendo del  lado*/
-    float: right;
-    opacity: 0.6;
-    max-width: 48%;
-    border-radius: 30px;
-    margin: auto;
-}
-
 .titulo {
-    display: block;
+    margin: 25px 0 0 25px;
+    font-size: 1.5rem;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    color: #83C5BE;
 }
-
-
-/*.portada {
-    margin: 25px;
-    max-width: 100%;
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-gap: 20px;
-}
-
-.portada img {
-    max-width: 100%;
-    margin: 0 auto;
-    padding: 0;
-}
-*/
 
 figcaption {
     padding: 4px;
@@ -118,6 +98,118 @@ figure {
     }
 }
 
+.imgSesion {
+    float: left;
+    max-width: 50%;
+    border-radius: 30px;
+    margin: 1%;
+    padding: 1%;
+}
+
+.formulario {
+    margin: 2%;
+    float: center;
+}
+
+.usuario {
+    margin: 10%;
+}
+
+.contrasenia {
+    margin: 10%;
+}
+
+aside {
+    background: #000;
+    width: 100%;
+    float: left;
+    line-height: 20px;
+    border-radius: 20px;
+}
+
+.contSe h3 {
+    /*margin: 25px 0 0 25px;*/
+    font-size: 1.5rem;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    color: #005f73;
+}
+
+.enlaces {
+    list-style: none;
+    padding: 15px;
+}
+
+.enlaces li a {
+    text-decoration: none;
+    padding: 15px;
+    color: #e9d8a6;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    padding: 10px;
+}
+
+.enlaces li a:hover {
+    background: #ee9b00;
+    color: #000;
+}
+
+@media screen and (max-width:700px) {
+    body {
+        font-size: 14px;
+        background: #000;
+    }
+    main {
+        width: 100%;
+    }
+    aside {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width:350px) {
+    aside {
+        display: none;
+    }
+}
+
+.pie-pagina {
+    width: 100%;
+    background-color: #e66108;
+    display: flex;
+    border-radius: 20px;
+}
+
+.box img {
+    width: 30%;
+    margin: 1%;
+    float: left;
+    border-radius: 20%;
+}
+
+.boxS {
+    width: 40%;
+    float: right;
+}
+
+.boxS h2,
+p {
+    text-align: left;
+}
+
+.boxSiguenos {
+    width: 20%;
+    margin: 1.5%;
+    float: inline-end right;
+}
+
+.boxSiguenos h2 {
+    text-align: right;
+}
+
+
+/*
 .pie-pagina {
     width: 100%;
     background-color: #e66108;
@@ -144,7 +236,7 @@ figure {
 .pie-pagina .grupo-1 .box figure img {
     width: 250px;
     border-radius: 100%;
-}
+}*/
 
 @media screen and (max-width:800px) {
     .pie-pagina .grupo-1 {
