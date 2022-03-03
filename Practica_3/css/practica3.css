@@ -72,8 +72,40 @@ figure {
     }
 }
 
+.practica {
+    width: 100%;
+}
+
+.tituloP {
+    color: #f3722c;
+    font-size: 2em;
+    text-align: center;
+}
+
+p {
+    color: #FFFFFF;
+    text-align: justify;
+}
+
+h2 {
+    color: #ffc300;
+    font-size: 1.3em;
+}
+
 table,
 th,
 td {
-    border: 1px solid black;
+    border: 1px solid #e8ac65;
+}
+
+th {
+    color: #2ec4b6;
+}
+
+td {
+    color: #cbf3f0;
+}
+
+h3 {
+    color: #ccdbfd;
 }
