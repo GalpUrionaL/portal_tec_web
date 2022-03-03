@@ -93,6 +93,10 @@ p {
     border-radius: 30px;
 }
 
+.salida {
+    width: 60%;
+}
+
 .resultado {
     margin: 1%;
     padding: 1%;
