@@ -27,12 +27,12 @@
     <main>
         <h2>CLIMA</h2>
         <p>Ingrese la temperatura en grados Celcius, sin el símbolo :<br></p>
-        <div>
+        <div class="clima">
             <form action>
                 <label for="temperatura">Temperatura : </label>
-                <input type="text" id="temp" name="temperatura" placeholder="36"><br>
+                <input type="text" id="temp" name="temperatura" class="ingreso" placeholder="36"><br>
                 <label for="clima">Clima : </label>
-                <input id="resultado" type="text" readonly=""><br>
+                <input id="resultado" type="text" class="salida" readonly=""><br>
                 <input type="button" class="btn" onclick="clima()" value="Resultado">
             </form>
         </div>
