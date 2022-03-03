@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Práctica 3 | Javascript | Factorial</title>
+    <script src="js/factorial.js"></script>
+    <script src="js/practica3.js"></script>
+    <link rel="stylesheet" href="css/factorial.css">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <ul class="navigation">
+                <li><a href="#" onclick="MenuDesplegable()">&#9776; Menú </a></li>
+                <li><a href="index.html"><i class="fa-solid fa-house-user"></i></a></li>
+                <li><a href="clima.html">Clima</a></li>
+                <li><a href="factorial.html">Factorial</a></li>
+                <li><a href="fizzbuzz.html">FizzBuzz</a></li>
+                <li><a href="fechaActual.html">Fecha Actual</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <h2>FACTORIAL</h2>
+        <p>Escriba un número para luego devolver como resultado el factorial del mismo : </p>
+        <div>
+            <form action>
+                <label for="numero">Número : </label>
+                <input type="text" id="num" name="numero" placeholder="5"><br>
+                <label for="factorial">Factorial es :</label>
+                <input id="resultado" type="text" readonly><br>
+                <input type="button" class="btn" onclick="factorial()" value="Resultado">
+            </form>
+        </div>
+    </main>
+</body>
+
+</html>

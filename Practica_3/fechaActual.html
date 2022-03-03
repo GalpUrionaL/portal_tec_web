@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Práctica 3 | JavaScript | Fecha</title>
+    <script src="js/practica3.js"></script>
+    <script src="js/fechaActual.js"></script>
+    <link rel="stylesheet" href="css/fechaActual.css">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <ul class="navigation">
+                <li><a href="#" onclick="MenuDesplegable()">&#9776; Menú </a></li>
+                <li><a href="index.html"><i class="fa-solid fa-house-user"></i></a></li>
+                <li><a href="clima.html">Clima</a></li>
+                <li><a href="factorial.html">Factorial</a></li>
+                <li><a href="fizzbuzz.html">FizzBuzz</a></li>
+                <li><a href="fechaActual.html">Fecha Actual</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <h2>FECHA ACTUAL</h2>
+        <p>Si desea saber la fecha actual puede hacer clic en el boton de fecha: </p>
+        <div>
+            <form action>
+                <label for="fecha">Fecha actual es: </label>
+                <input id="fecha" type="text" readonly>
+                <input type="button" class="btn" onclick="fechaActual()" value="Fecha">
+            </form>
+        </div>
+    </main>
+</body>
+
+</html>
