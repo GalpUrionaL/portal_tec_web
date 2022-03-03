@@ -11,6 +11,8 @@ function clima() {
         } else {
             if (grados >= 26 && grados <= 40) {
                 estado = 'Calor';
+            } else {
+                estado = 'Ingrese de nuevo';
             }
         }
     }
