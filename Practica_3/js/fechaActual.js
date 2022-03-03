@@ -1,4 +1,7 @@
 /* *Ejercicio 4 : Fecha Actual* */
+function MenuDesplegable() {
+    document.getElementsByClassName("navigation")[0].classList.toggle("responsive");
+}
 
 function fechaActual() {
     let tiempo = new Date();

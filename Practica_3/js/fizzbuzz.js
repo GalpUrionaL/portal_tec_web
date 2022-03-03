@@ -1,3 +1,9 @@
+/* *Ejercicio 3 : Algoritmo FizzBuzz* */
+
+function MenuDesplegable() {
+    document.getElementsByClassName("navigation")[0].classList.toggle("responsive");
+}
+
 function fizzbuzz() {
 
     for (let i = 1; i <= 100; i++) {

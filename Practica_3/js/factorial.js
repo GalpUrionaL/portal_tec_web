@@ -1,5 +1,9 @@
 /* *Ejercicio 2  : Factorial* */
 
+function MenuDesplegable() {
+    document.getElementsByClassName("navigation")[0].classList.toggle("responsive");
+}
+
 function factorial() {
 
     let n = parseInt(document.getElementById('num').value);

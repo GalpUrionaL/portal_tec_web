@@ -1,5 +1,9 @@
 /* *Ejercicio 1 : Clima  * */
 
+function MenuDesplegable() {
+    document.getElementsByClassName("navigation")[0].classList.toggle("responsive");
+}
+
 function clima() {
     let grados = parseFloat(document.getElementById('temp').value);
     let estado = '';
