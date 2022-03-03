@@ -7,20 +7,36 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Practica 3 | JavaScript | Clima</title>
     <script src="js/clima.js"></script>
+    <link rel="stylesheet" href="css/clima.css">
 </head>
 
 <body>
-    <h2>CLIMA</h2>
-    <p>Ingrese la temperatura en grados Celcius, sin el símbolo :<br></p>
-    <div>
-        <form action>
-            <label for="temperatura">Temperatura : </label>
-            <input type="text" id="temp" name="temperatura" placeholder="36"><br>
-            <label for="clima">Clima : </label>
-            <input id="resultado" type="text" readonly=""><br>
-            <input type="button" class="btn" onclick="clima()" value="Resultado">
-        </form>
-    </div>
+    <header>
+        <nav>
+            <ul class="navigation">
+                <li><a href="#" onclick="MenuDesplegable()">&#9776; Menú </a></li>
+                <li><a href="index.html"><i class="fa-solid fa-house-user"></i></a></li>
+                <li><a href="clima.html">Clima</a></li>
+                <li><a href="factorial.html">Factorial</a></li>
+                <li><a href="fizzbuzz.html">FizzBuzz</a></li>
+                <li><a href="fechaActual.html">Fecha Actual</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <h2>CLIMA</h2>
+        <p>Ingrese la temperatura en grados Celcius, sin el símbolo :<br></p>
+        <div>
+            <form action>
+                <label for="temperatura">Temperatura : </label>
+                <input type="text" id="temp" name="temperatura" placeholder="36"><br>
+                <label for="clima">Clima : </label>
+                <input id="resultado" type="text" readonly=""><br>
+                <input type="button" class="btn" onclick="clima()" value="Resultado">
+            </form>
+        </div>
+    </main>
+
 </body>
 
 </html>
