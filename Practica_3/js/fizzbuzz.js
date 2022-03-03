@@ -4,9 +4,9 @@ function MenuDesplegable() {
     document.getElementsByClassName("navigation")[0].classList.toggle("responsive");
 }
 
-function fizzbuzz() {
+function fizzBuzz(num) {
 
-    for (let i = 1; i <= 100; i++) {
+    for (let i = 1; i <= num; i++) {
         if (((i % 3) == 0) && ((i % 5) == 0)) {
             document.write(i + ".-" + " " + "FizzBuzz");
             document.write("<br>");
@@ -23,3 +23,5 @@ function fizzbuzz() {
 
     }
 }
+
+fizzBuzz(100);

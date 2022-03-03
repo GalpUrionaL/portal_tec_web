@@ -71,3 +71,36 @@ figure {
         color: #000;
     }
 }
+
+h2 {
+    color: #f3722c;
+    font-size: 2em;
+    text-align: center;
+}
+
+p {
+    color: #FFFFFF;
+    text-align: justify;
+}
+
+.fechaActual {
+    margin: 2%;
+    width: 60%;
+    padding: 2%;
+    background: #f8ad9d;
+    display: flex;
+    justify-content: center;
+    border-radius: 30px;
+}
+
+.resultado {
+    margin: 1%;
+    padding: 1%;
+    width: 60%;
+}
+
+.btn {
+    margin: 1%;
+    width: 30%;
+    color: #a01a58;
+}
