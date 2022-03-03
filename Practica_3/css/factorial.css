@@ -71,3 +71,42 @@ figure {
         color: #000;
     }
 }
+
+h2 {
+    color: #f3722c;
+    font-size: 2em;
+    text-align: center;
+}
+
+p {
+    color: #FFFFFF;
+    text-align: justify;
+}
+
+.factorial {
+    margin: 2%;
+    width: 60%;
+    padding: 2%;
+    background: #b56576;
+    display: flex;
+    justify-content: center;
+    border-radius: 30px;
+}
+
+.num {
+    margin: 1%;
+    padding: 1%;
+    width: 25%;
+}
+
+.resultado {
+    margin: 1%;
+    padding: 1%;
+    width: 60%;
+}
+
+.btn {
+    margin: 1%;
+    width: 30%;
+    color: #a01a58;
+}
