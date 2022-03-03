@@ -1,6 +1,6 @@
-function FizzBuzz(num) {
+function fizzbuzz() {
 
-    for (let i = 1; i <= num; i++) {
+    for (let i = 1; i <= 100; i++) {
         if (((i % 3) == 0) && ((i % 5) == 0)) {
             document.write(i + ".-" + " " + "FizzBuzz");
             document.write("<br>");
@@ -17,5 +17,3 @@ function FizzBuzz(num) {
 
     }
 }
-
-FizzBuzz(15);
