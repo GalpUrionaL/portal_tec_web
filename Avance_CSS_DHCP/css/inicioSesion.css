@@ -41,22 +41,6 @@ header {
     font-weight: 700;
 }
 
-
-/* main contenido principal */
-
-main {
-    width: 100%;
-}
-
-.titulo {
-    margin: 25px 0 0 25px;
-    font-size: 1.5rem;
-    text-align: center;
-    font-family: 'Poppins', sans-serif;
-    font-weight: bold;
-    color: #83C5BE;
-}
-
 figcaption {
     padding: 4px;
 }
@@ -97,6 +81,22 @@ figure {
     }
 }
 
+
+/* main contenido principal */
+
+main {
+    width: 100%;
+}
+
+.titulo {
+    margin: 25px 0 0 25px;
+    font-size: 1.5rem;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    color: #83C5BE;
+}
+
 .imgSesion {
     float: left;
     width: 50%;
@@ -123,7 +123,6 @@ figure {
 }
 
 aside {
-    margin: 1%;
     background: #000;
     width: 100%;
     float: left;
