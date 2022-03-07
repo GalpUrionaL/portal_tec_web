@@ -98,8 +98,9 @@ main {
 }
 
 .imgSesion {
+    margin: 1%;
     float: left;
-    width: 50%;
+    width: 40%;
     border-radius: 30px;
 }
 
@@ -110,6 +111,10 @@ main {
 
 .usuario {
     margin: 5%;
+}
+
+label {
+    color: #FFFFFF;
 }
 
 .contrasenia {

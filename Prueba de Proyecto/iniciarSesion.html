@@ -42,17 +42,18 @@
                 <img src="imagenes/inicioSesion.jpg" alt="Logo de iniciar Sesión">
             </div>
             <div class="formulario">
-                <form action="iniciar">
+                <form action="index.html" method="get">
 
                     <div class="usuario">
-                        <input type="text" name="USUARIO" placeholder="usuario@upds.bo">
+                        <label for="USUARIO">USUARIO: </label>
+                        <input type="text" name="USUARIO" id="USUARIO" placeholder="usuario@upds.bo" required>
                     </div>
                     <div class="contrasenia">
-                        <input type="password" name="CONTRASEÑA" placeholder="***************">
+                        <label for="CONTRASENIA">CONTRASEÑA: </label>
+                        <input type="password" name="CONTRASENIA" id="CONTRASENIA" placeholder="***************" required>
                     </div>
                     <div class="botones">
                         <input type="button" value="Iniciar" id="iniciar">
-                        <input type="button" value="Registrarse" id="boton">
                     </div>
                 </form>
             </div>
