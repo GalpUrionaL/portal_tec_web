@@ -1,3 +1,5 @@
+/* Estilo para contenido de tutoriales*/
+
 body {
     background: #22223B;
     font-family: 'Poppins', sans-serif;
@@ -35,31 +37,6 @@ header {
     color: #FFFFFF;
     background-color: #006D77;
     font-weight: 700;
-}
-
-
-/* main contenido principal */
-
-main {
-    width: 100%;
-}
-
-.portada {
-    margin: 0;
-    padding: 0;
-}
-
-.portada img {
-    /* hace que la imagen se posicione como flotante dependiendo del  lado*/
-    float: right;
-    opacity: 0.6;
-    max-width: 48%;
-    border-radius: 30px;
-    margin: auto;
-}
-
-.titulo {
-    display: block;
 }
 
 figcaption {
@@ -102,39 +79,81 @@ figure {
     }
 }
 
-.articulo {
-    margin: 1%;
-    display: block;
+
+/* main contenido principal */
+
+main {
+    width: 100%;
 }
 
-.articulo p {
-    text-align: left;
-    color: #FFFFFF;
-    letter-spacing: 1px;
+.portada {
+    margin: 0;
+    padding: 0;
 }
 
-.titulo h2 {
-    margin: 25px 0 0 25px;
-    font-size: 1.5rem;
+.tituloP {
     text-align: center;
-    font-family: 'Poppins', sans-serif;
-    font-weight: bold;
-    color: #83C5BE;
 }
 
-.articulo img {
-    float: left;
-    opacity: 0.6;
-    max-width: 50%;
-    border-radius: 30px;
+.titulo2 {
+    margin: 1%;
+    padding: 1%;
+    text-align: left;
+}
+
+.parrafoP {
+    margin: 1%;
+    color: #fff1e6;
+    text-align: justify;
+}
+
+.tituloVideo1 {
+    margin: 1%;
+    padding: 1%;
+    text-align: left;
+}
+
+h1 {
+    color: #94d2bd;
+}
+
+h3 {
+    color: #9ef01a;
+}
+
+.instalacion {
+    display: flex;
+    justify-content: space-between;
+}
+
+.video1 {
     margin: 1%;
     padding: 1%;
 }
 
-.articulo p {
-    text-align: center;
-    color: #FFFFFF;
-    letter-spacing: 1px;
+.parrafVideo1 {
+    margin: 1%;
+    padding: 1%;
+    color: #fff1e6;
+    text-align: justify;
+}
+
+.tituloVideo2 {
+    display: flex;
+    float: right;
+    margin: 2%;
+}
+
+.video2 {
+    float: left;
+    margin: 2%;
+    display: flex;
+}
+
+.parrafo2 {
+    float: right;
+    color: #fff1e6;
+    display: block;
 }
 
 aside {
@@ -212,58 +231,6 @@ footer {
     color: #FFFFFF;
     margin: 1%;
     justify-content: space-around;
-}
-
-
-/* Estilo para contenido de tutoriales*/
-
-.tituloP {
-    text-align: center;
-}
-
-h1 {
-    color: #94d2bd;
-}
-
-.titulo2 {
-    text-align: left;
-}
-
-h3 {
-    color: #9ef01a;
-}
-
-.parrafoP {
-    color: #fff1e6;
-    text-align: justify;
-}
-
-.tituloVideo1 {
-    float: left;
-}
-
-.video1 {
-    float: right;
-    margin: 2%;
-    padding: 1%;
-}
-
-.tituloVideo2 {
-    display: flex;
-    float: right;
-    margin: 2%;
-}
-
-.video2 {
-    float: left;
-    margin: 2%;
-    display: flex;
-}
-
-.parrafo2 {
-    float: right;
-    color: #fff1e6;
-    display: block;
 }
 
 .conclusionT {
