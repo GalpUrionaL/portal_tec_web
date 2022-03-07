@@ -37,31 +37,6 @@ header {
     font-weight: 700;
 }
 
-
-/* main contenido principal */
-
-main {
-    width: 100%;
-}
-
-.portada {
-    margin: 0;
-    padding: 0;
-}
-
-.portada img {
-    /* hace que la imagen se posicione como flotante dependiendo del  lado*/
-    float: right;
-    opacity: 0.6;
-    max-width: 48%;
-    border-radius: 30px;
-    margin: auto;
-}
-
-.titulo {
-    display: block;
-}
-
 figcaption {
     padding: 4px;
 }
@@ -102,14 +77,48 @@ figure {
     }
 }
 
-.parte1 {
-    display: flex;
-    justify-content: space-between;
+
+/* main contenido principal */
+
+main {
+    width: 100%;
+}
+
+.titulo {
+    display: block;
+}
+
+.titulo h2 {
+    margin: 25px 0 0 25px;
+    font-size: 2em;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    color: #83C5BE;
+}
+
+.portada {
+    margin: 1%;
+    padding: 1%;
+}
+
+.portada img {
+    /* hace que la imagen se posicione como flotante dependiendo del  lado*/
+    float: right;
+    opacity: 0.6;
+    max-width: 48%;
+    border-radius: 30px;
+    margin: auto;
 }
 
 .articulo {
     margin: 1%;
     display: block;
+}
+
+.parte1 {
+    display: flex;
+    justify-content: space-between;
 }
 
 .articulo p {
@@ -118,27 +127,17 @@ figure {
     letter-spacing: 1px;
 }
 
-.titulo h2 {
-    margin: 25px 0 0 25px;
-    font-size: 1.5rem;
-    text-align: center;
-    font-family: 'Poppins', sans-serif;
-    font-weight: bold;
-    color: #83C5BE;
-}
-
 .articulo img {
     float: left;
     opacity: 0.6;
     max-width: 50%;
     border-radius: 30px;
     margin: 1%;
-    padding: 1%;
 }
 
 .parrafo {
     float: left;
-    text-align: left;
+    text-align: justify;
     color: #FFFFFF;
     letter-spacing: 1px;
 }
