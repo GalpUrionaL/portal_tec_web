@@ -37,31 +37,6 @@ header {
     font-weight: 700;
 }
 
-
-/* main contenido principal */
-
-main {
-    width: 100%;
-}
-
-.portada {
-    margin: 0;
-    padding: 0;
-}
-
-.portada img {
-    /* hace que la imagen se posicione como flotante dependiendo del  lado*/
-    float: right;
-    opacity: 0.6;
-    max-width: 48%;
-    border-radius: 30px;
-    margin: auto;
-}
-
-.titulo {
-    display: block;
-}
-
 figcaption {
     padding: 4px;
 }
@@ -100,6 +75,31 @@ figure {
     .navigation li a {
         color: #000;
     }
+}
+
+
+/* main contenido principal */
+
+main {
+    width: 100%;
+}
+
+.portada {
+    margin: 0;
+    padding: 0;
+}
+
+.portada img {
+    /* hace que la imagen se posicione como flotante dependiendo del  lado*/
+    float: right;
+    opacity: 0.6;
+    max-width: 48%;
+    border-radius: 30px;
+    margin: auto;
+}
+
+.titulo {
+    display: block;
 }
 
 .parte1 {
