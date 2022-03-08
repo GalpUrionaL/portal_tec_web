@@ -14,6 +14,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@1,300&family=Courgette&family=Great+Vibes&family=Open+Sans:ital,wght@0,300;0,400;1,500&family=Poppins:wght@100;200&display=swap" rel="stylesheet">
     <title>Natus Vincere | DHCP | Registrarse</title>
     <script src="js/barra.js"></script>
+    <script src="js/eventos.js"></script>
 </head>
 
 <body>
@@ -41,23 +42,23 @@
                     <img src="imagenes/95696c8188a0fdb9e67ce5541cc8f4c0.jpg" alt="Imagen de portada">
                 </div>
                 <div class="formulario">
-                    <form action="index.html" method="GET">
+                    <form action=" " id="regis" name="regis" method="post">
                         <div class="relleno">
                             <label for="nombre">Nombre Completo: </label>
-                            <input type="text" placeholder="Nombre Completo" maxlength="10" name="nombre" id="nombre" required><br>
+                            <input type="text" placeholder="Nombre Completo" name="nombre" id="nombre"><br>
 
-                            <label for="correoElectronico">Correo Electrónico: </label>
-                            <input type="email" placeholder="ejemplo@gmail.com" name="correoElectronico" id="correoElectronico"><br>
+                            <label for="correo">Correo Electrónico: </label>
+                            <input type="email" placeholder="ejemplo@gmail.com" name="correo" id="correo"><br>
 
 
-                            <label for="numeroTelefono">Número de Teléfono: </label>
-                            <input type="tel" placeholder="Número de Teléfono" name="telefono" id="numeroTelefono" required><br>
+                            <label for="contrasenia">Contraseña: </label>
+                            <input type="password" placeholder="********" name="contrasenia" id="contrasenia"><br>
 
 
                             <label for="fecha_actual">Fecha Actual: </label>
                             <input type="date" name="fecha_actual" id="fecha_actual"><br>
 
-                            <input type="submit" value="Enviar" id="Enviar" name="Enviar">
+                            <input type="submit" value="Enviar" id="Enviar" onclick="enviar()" name="Enviar">
 
                         </div>
                     </form>

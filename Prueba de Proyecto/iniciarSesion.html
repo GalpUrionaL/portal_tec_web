@@ -15,6 +15,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@1,300&family=Courgette&family=Great+Vibes&family=Open+Sans:ital,wght@0,300;0,400;1,500&family=Poppins:wght@100;200&display=swap" rel="stylesheet">
     <link rel="icon" type="image/x-icon" href="imagenes/navi_calligraphy_black_1366x768.ico">
     <script src="js/barra.js"></script>
+    <script src="js/iniciar.js"></script>
     <link rel="stylesheet" href="css/iniciarSesion.css">
 </head>
 
@@ -41,18 +42,18 @@
                 <img src="imagenes/inicioSesion.jpg" alt="Logo de iniciar Sesión">
             </div>
             <div class="formulario">
-                <form action="index.html" method="get">
+                <form action=" " method="post">
 
                     <div class="usuario">
                         <label for="USUARIO">USUARIO: </label>
-                        <input type="text" name="USUARIO" id="USUARIO" placeholder="usuario@upds.bo" required>
+                        <input type="email" name="USUARIO" id="USUARIO" placeholder="usuario@upds.bo">
                     </div>
                     <div class="contrasenia">
                         <label for="CONTRASENIA">CONTRASEÑA: </label>
-                        <input type="password" name="CONTRASENIA" id="CONTRASENIA" placeholder="***************" required>
+                        <input type="password" name="CONTRASENIA" id="CONTRASENIA" placeholder="***************">
                     </div>
                     <div class="botones">
-                        <input type="button" value="Iniciar" id="iniciar">
+                        <input type="button" onclick="iniciar()" value="Iniciar" id="iniciar">
                     </div>
                 </form>
             </div>
