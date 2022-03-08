@@ -156,6 +156,13 @@ main {
     text-align: justify;
 }
 
+.conclusionT h2 {
+    margin: 1%;
+    color: #9ef01a;
+    font-size: 1.3em;
+    text-align: left;
+}
+
 .conclusionT p {
     color: #fff1e6;
     text-align: justify;
