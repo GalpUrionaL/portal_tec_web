@@ -1,0 +1,275 @@
+/* Estilo para contenido de tutoriales*/
+
+body {
+    background: #22223B;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+}
+
+header {
+    background: #4A4E69;
+}
+
+.navigation {
+    list-style: none;
+    text-align: center;
+    padding: 0;
+}
+
+.navigation li:first-child {
+    /*Pseudoclase*/
+    display: block;
+}
+
+.navigation li {
+    display: none;
+}
+
+.navigation a {
+    display: block;
+    color: #83C5BE;
+    padding: 0.75rem;
+    text-align: center;
+    text-decoration: none;
+}
+
+.navigation a:hover {
+    color: #FFFFFF;
+    background-color: #006D77;
+    font-weight: 700;
+}
+
+figcaption {
+    padding: 4px;
+}
+
+figure {
+    margin: 0;
+}
+
+.item:hover {
+    box-shadow: 0 0 50px #333;
+}
+
+
+/* the onclick JS toggles the .repsonsive class from display none (.navigation li) to display block because the repsonsive class is added to the end of the class list like this in HTML Line #6.
+  <ul class="navigation responsive">
+  */
+
+.responsive li {
+    display: block;
+}
+
+
+/* Media Query for medium + screens */
+
+@media only screen and (min-width: 32.5em) {
+    .navigation {
+        display: flex;
+    }
+    .navigation li:first-child {
+        display: none;
+    }
+    .navigation li {
+        display: block;
+        flex: 1 1 100%;
+    }
+    .navigation li a {
+        color: #000;
+    }
+}
+
+
+/* main contenido principal */
+
+main {
+    width: 100%;
+}
+
+.portada {
+    margin: 0;
+    padding: 0;
+}
+
+.tituloP {
+    margin: 25px 0 0 25px;
+    font-size: 1.5rem;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    color: #83C5BE;
+}
+
+.titulo2 {
+    margin: 1%;
+    padding: 1%;
+    color: #9ef01a;
+    font-size: 1em;
+    text-align: left;
+}
+
+.parrafoP p {
+    margin: 1%;
+    color: #fff1e6;
+    text-align: justify;
+}
+
+.tituloVideo1 h2 {
+    margin: 1%;
+    padding: 1%;
+    color: #9ef01a;
+    font-size: 1.3em;
+    text-align: left;
+}
+
+.instalacion {
+    margin: 1%;
+    padding: 1%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.video1 {
+    margin: 2%;
+}
+
+.instalacion2 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.tituloVideo2 {
+    margin: 1%;
+    color: #9ef01a;
+    font-size: 1.3em;
+    text-align: right;
+}
+
+.video2 {
+    display: block;
+}
+
+.parrafo2 p {
+    margin: 2%;
+    color: #fff1e6;
+    text-align: justify;
+}
+
+.conclusionT p {
+    color: #fff1e6;
+    text-align: justify;
+}
+
+aside {
+    background: #000;
+    width: 100%;
+    float: left;
+    line-height: 20px;
+    border-radius: 20px;
+}
+
+.contSe h3 {
+    /*margin: 25px 0 0 25px;*/
+    font-size: 1.5rem;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    color: #005f73;
+}
+
+.enlaces {
+    list-style: none;
+    padding: 15px;
+}
+
+.enlaces li a {
+    text-decoration: none;
+    padding: 15px;
+    color: #e9d8a6;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    padding: 10px;
+}
+
+.enlaces li a:hover {
+    background: #ee9b00;
+    color: #000;
+}
+
+@media screen and (max-width:700px) {
+    body {
+        font-size: 14px;
+        background: #000;
+    }
+    main {
+        width: 100%;
+    }
+    aside {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width:350px) {
+    .imgSesion {
+        display: none;
+    }
+    aside {
+        display: none;
+    }
+    .boxS {
+        display: none;
+    }
+}
+
+.pie-pagina {
+    width: 100%;
+    background-color: #e66108;
+    display: flex;
+    flex-direction: row;
+    border-radius: 20px;
+}
+
+.box img {
+    width: 25%;
+    height: 25%;
+    margin: 1%;
+    float: left;
+    border-radius: 20%;
+}
+
+.boxS {
+    width: 30%;
+    margin: 2%;
+    float: right;
+}
+
+.boxS h2,
+p {
+    text-align: right;
+    font-size: 20px;
+    float: right;
+    font-size: 1rem;
+}
+
+.boxSiguenos {
+    width: 100%;
+    margin: 2%;
+    float: inline-start;
+    text-align: center;
+}
+
+.boxSiguenos h2 {
+    text-align: center;
+    font-size: 1rem;
+}
+
+.red-social {
+    text-align: center;
+}
+
+@media screen and (max-width:300px) {
+    .pie-pagina .grupo-1 {
+        width: 100%;
+    }
+}
