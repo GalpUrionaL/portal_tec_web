@@ -37,47 +37,6 @@ header {
     font-weight: 700;
 }
 
-
-/* main contenido principal */
-
-main {
-    width: 100%;
-}
-
-.portada {
-    margin: 0;
-    padding: 0;
-}
-
-.portada img {
-    /* hace que la imagen se posicione como flotante dependiendo del  lado*/
-    float: right;
-    opacity: 0.6;
-    max-width: 48%;
-    border-radius: 30px;
-    margin: auto;
-}
-
-.titulo {
-    display: block;
-}
-
-
-/*.portada {
-    margin: 25px;
-    max-width: 100%;
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-gap: 20px;
-}
-
-.portada img {
-    max-width: 100%;
-    margin: 0 auto;
-    padding: 0;
-}
-*/
-
 figcaption {
     padding: 4px;
 }
@@ -118,39 +77,46 @@ figure {
     }
 }
 
-.articulo {
-    margin: 1%;
-    display: block;
+
+/* main contenido principal */
+
+main {
+    width: 100%;
 }
 
-.articulo p {
-    text-align: left;
-    color: #FFFFFF;
-    letter-spacing: 1px;
-}
-
-.titulo h2 {
+.tituloP {
     margin: 25px 0 0 25px;
-    font-size: 1.5rem;
+    font-size: 1em;
     text-align: center;
     font-family: 'Poppins', sans-serif;
-    font-weight: bold;
     color: #83C5BE;
 }
 
-.articulo img {
-    float: left;
-    opacity: 0.6;
-    max-width: 50%;
-    border-radius: 30px;
+.secionD {
+    width: 100%;
     margin: 1%;
     padding: 1%;
+    display: flex;
+    justify-content: space-between;
 }
 
-.articulo p {
-    text-align: center;
+.imgF {
+    margin: 1%;
+    width: 50%;
+}
+
+.formulario {
+    margin: 1%;
+    width: 40%;
+}
+
+label {
     color: #FFFFFF;
-    letter-spacing: 1px;
+}
+
+input {
+    margin: 1%;
+    border-color: #e66108;
 }
 
 aside {
@@ -203,7 +169,7 @@ aside {
 }
 
 @media screen and (max-width:350px) {
-    .imgSesion {
+    .imgF {
         display: none;
     }
     aside {
