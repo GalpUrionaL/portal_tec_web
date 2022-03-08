@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Registrarse para acceder a más informacion sobre DHCP">
     <link rel="stylesheet" href="css/registrarse.css">
     <link rel="icon" type="image/x-icon" href="imagenes/navi_calligraphy_black_1366x768.ico">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
@@ -20,7 +21,7 @@
         <nav>
             <ul class="navigation">
                 <li><a href="#" onclick="MenuDesplegable()">&#9776; Menú </a></li>
-                <li><a href="index.html"><i class="fa-solid fa-house-user"></i></i></a></li>
+                <li><a href="index.html"><i class="fa-solid fa-house-user"></i></a></li>
                 <li><a href="introduccion.html">Introducción</a></li>
                 <li><a href="tutoriales.html">Tutoriales</a></li>
                 <li><a href="iniciarSesion.html">Iniciar Sesion</a></li>
@@ -31,54 +32,40 @@
     </header>
 
     <main>
-        <section class="principal">
-            <article>
-                <div class="cabeza">
-                    <h1 class="titulo">REGISTRARSE</h1>
-
-                    <img src="imagenes/95696c8188a0fdb9e67ce5541cc8f4c0.jpg" alt="Imagen de portada">
-
-                    <h3>Registrate para recibir notificaciones de contenido nuevo. Puedes rellenar el siguiente formulario: </h3>
-
-                </div>
-            </article>
-            <br>
-            <div class="seecionD">
-
-                <h3 class="tituloD">DATOS PERSONALES</h3>
-
-                <form action="index.html" method="GET">
-                    <div class="relleno">
-                        <label for="Nombre_Completo">Nombre Completo</label>
-                        <input type="text" placeholder="Nombre Completo" maxlength="10" name="Nombre_Completo:" id="Nombre_Completo" pattern=[A-Za-z]{5} required>
-
-
-                        <label for="correo_electronico">Correo Electrónico</label>
-                        <input type="email" placeholder="ejemplo@gmail.com" name="correo_electronico" id="correo_electronico">
-
-
-                        <label for="numero_telefono">Número de Teléfono</label>
-                        <input type="tel" placeholder="Número de Teléfono" name="numero_telefono" id="numero_telefono" required>
-
-
-                        <label for="fecha_actual">Fecha Actual</label>
-                        <input type="date" name="fecha_actual" id="fecha_actual">
-
-
-                        <label for="Tipo_de_Usuario">Tipo de Usuario</label>
-                        <input list="Tipo_de_Usuario">
-                        <datalist id="Tipo_de_Usuario">
-                           <option value="Lector virtual">Lector Regular</option>
-                           <option value="Suscripcion virtual">Lector Suscrito</option>
-                           <option value="Seguidor de Blog">Seguidor</option>
-                        </datalist>
-
-                        <input type="submit" value="Enviar" id="Enviar" name="Enviar">
-
-                    </div>
-                </form>
+        <div class="principal">
+            <div class="tituloP">
+                <h1>REGISTRARSE</h1>
             </div>
-        </section>
+            <div class="secionD">
+                <div class="imgF">
+                    <img src="imagenes/95696c8188a0fdb9e67ce5541cc8f4c0.jpg" alt="Imagen de portada">
+                </div>
+                <div class="formulario">
+                    <form action="index.html" method="GET">
+                        <div class="relleno">
+                            <label for="nombre">Nombre Completo: </label>
+                            <input type="text" placeholder="Nombre Completo" maxlength="10" name="nombre" id="nombre" required><br>
+
+                            <label for="correoElectronico">Correo Electrónico: </label>
+                            <input type="email" placeholder="ejemplo@gmail.com" name="correoElectronico" id="correoElectronico"><br>
+
+
+                            <label for="numeroTelefono">Número de Teléfono: </label>
+                            <input type="tel" placeholder="Número de Teléfono" name="telefono" id="numeroTelefono" required><br>
+
+
+                            <label for="fecha_actual">Fecha Actual: </label>
+                            <input type="date" name="fecha_actual" id="fecha_actual"><br>
+
+                            <input type="submit" value="Enviar" id="Enviar" name="Enviar">
+
+                        </div>
+                    </form>
+                </div>
+
+            </div>
+        </div>
+
     </main>
     <aside>
         <div class="contSe">
