@@ -278,11 +278,11 @@ aside {
 }
 
 .box img {
-    width: 25%;
-    height: 25%;
+    width: 15%;
+    height: 15%;
     margin: 1%;
     float: left;
-    border-radius: 20%;
+    border-radius: 50%;
 }
 
 .boxS {
